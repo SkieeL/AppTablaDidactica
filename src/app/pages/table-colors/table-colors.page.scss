@@ -1,0 +1,55 @@
+ion-button {
+    margin: 0;
+    --padding-start: 0;
+    --padding-end: 0;
+    --border-radius: 0;
+}
+
+.button-vertical {
+    height: 35%;
+    width: 50%;
+}
+
+.button-horizontal {
+    height: 50%;
+    width: 33.33%;
+}
+
+.button-vertical-quinto {
+    height: 30%;
+    width: 100%;
+}
+
+.button-horizontal-cuarto {
+    height: 50%;
+    width: 50%;
+}
+
+.button-horizontal-quinto {
+    height: 50%;
+    width: 50%;
+}
+
+.opc1 {
+    --background: #EE2222;
+}
+
+.opc2 {
+    --background: #22EE22;
+}
+
+.opc3 {
+    --background: #2222EE;
+}
+
+.opc4 {
+    --background: #EEEE22;
+}
+
+.opc5 {
+    --background: #22EEEE;
+}
+
+.fondo {
+    --background: #22EEEE;
+}

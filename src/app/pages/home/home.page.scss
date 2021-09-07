@@ -1,0 +1,32 @@
+ion-button {
+    margin: 0;
+    --padding-start: 0;
+    --padding-end: 0;
+    --border-radius: 0;
+}
+
+.button-vertical {
+    height: 33.33%;
+    width: 100%;
+}
+
+.button-horizontal {
+    height: 100%;
+    width: 33.33%;
+}
+
+.animales {
+    --background: #C70318;
+}
+
+.colores {
+    --background: #4ABC19;
+}
+
+.numeros {
+    --background: #001F7E;
+}
+
+img {
+    height: 200px;
+}

@@ -1,0 +1,15 @@
+<ion-content>
+
+  <ion-button class="animales" (click)="toAnimales()" [ngClass]="{ 'button-horizontal': this.platform.isLandscape(), 'button-vertical': !this.platform.isLandscape() }">
+    <img src="../../../assets/images/mapache.png">
+  </ion-button>
+
+  <ion-button class="colores" (click)="toColores()" [ngClass]="{ 'button-horizontal': this.platform.isLandscape(), 'button-vertical': !this.platform.isLandscape() }">
+    <img src="../../../assets/images/colores.png">
+  </ion-button>
+
+  <ion-button class="numeros" (click)="toNumeros()" [ngClass]="{ 'button-horizontal': this.platform.isLandscape(), 'button-vertical': !this.platform.isLandscape() }">
+    <img src="../../../assets/images/numeros.png">
+  </ion-button>
+
+</ion-content>

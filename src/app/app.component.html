@@ -1,0 +1,9 @@
+<div *ngIf="this.showSplash" class="splash">
+  <div class="spinner">
+    <img scr="../assets/splash/logo.png">
+  </div>
+</div>
+
+<ion-app *ngIf="this.showApp">
+  <ion-router-outlet></ion-router-outlet>
+</ion-app>

@@ -1,0 +1,40 @@
+ion-button {
+    margin: 0;
+    --padding-start: 0;
+    --padding-end: 0;
+    --border-radius: 0;
+    --background: #C70318;
+}
+
+.button-vertical {
+    height: 35%;
+    width: 50%;
+}
+
+.button-horizontal {
+    height: 50%;
+    width: 33.33%;
+}
+
+.button-vertical-quinto {
+    height: 30%;
+    width: 100%;
+}
+
+.button-horizontal-cuarto {
+    height: 50%;
+    width: 50%;
+}
+
+.button-horizontal-quinto {
+    height: 50%;
+    width: 50%;
+}
+
+img {
+    height: 180px;
+}
+
+.fondo {
+    --background: #C70318;
+}
